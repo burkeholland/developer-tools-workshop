@@ -22,7 +22,7 @@ function main(context, myTimer) {
       });
     })
     .catch(err => {
-      console.error(`ERROR: ${err}`);
+      console.error(`ERROR 🛑: ${err}`);
     });
 }
 
