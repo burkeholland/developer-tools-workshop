@@ -1,4 +1,4 @@
-const { Connection, Request } = require('tedious');
+const {Connection, Request} = require('tedious');
 require('console.table');
 
 const options = {
@@ -12,15 +12,11 @@ const config = {
   userName: process.env.SQL_USERNAME,
   password: process.env.SQL_PASSWORD,
   server: process.env.SQL_SERVER,
-  options: {
-    encrypt: true,
-    database: process.env.SQL_DATABASE
-  }
+  options: {encrypt: true, database: process.env.SQL_DATABASE}
 };
 
 function main(context, myTimer) {
-  getChangedSkus()
-    .then(data => {
+  getChangedSkus().then(data => {
       data.forEach(item => {
         console.table(data);
       });
@@ -38,7 +34,7 @@ function getChangedSkus() {
   return new Promise((resolve, reject) => {
     const connection = new Connection(config);
     const query = `SELECT Sku, Quantity, CONVERT(varchar, Modified, 0) as Modified
-                            FROM Inventory`;
+                   FROM Inventory`;
 
     connection.on('connect', err => {
       if (err) reject(err);
@@ -53,7 +49,7 @@ function getChangedSkus() {
       request.on('row', columns => {
         let result = {};
         columns.forEach(column => {
-          result[column.metadata.colName] = column.value;
+          result[column.metadata.colName]=column.value;
         });
 
         results.push(result);
@@ -64,8 +60,7 @@ function getChangedSkus() {
       });
 
       connection.execSql(request);
-    });
-  });
+    }); });
 }
 
 // run the thing
