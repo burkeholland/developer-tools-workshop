@@ -7,6 +7,12 @@
     {
       "type": "node",
       "request": "launch",
+      "name": "Launch Simple Node Server",
+      "program": "${workspaceFolder}/projects/simple-node-server/index.js"
+    },
+    {
+      "type": "node",
+      "request": "launch",
       "name": "Launch SQL Reader",
       "program": "${workspaceFolder}/projects/sql-reader/index.js",
       "envFile": "${workspaceFolder}/projects/sql-reader/.env"
