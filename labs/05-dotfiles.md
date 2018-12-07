@@ -39,10 +39,12 @@ The following is a list of helpful aliases or bash commands that are commonly us
 
 1. `ps aux | grep node`
 2. `ps aux | grep node index`
-3. aliases
-   ls=ls -ltra
-   gs=git status
-   npmgl=npm ls -g --depth=0
-   mkdcd () {
-   command mkdir $1; cd$1;
-   }
+3. Aliases:
+    ```bash
+     ls=ls -ltra
+     gs=git status
+     npmgl=npm ls -g --depth=0
+     mkdcd () {
+     command mkdir $1; cd$1;
+     }
+    ```
