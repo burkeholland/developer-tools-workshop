@@ -112,6 +112,7 @@ Font Ligatures are a way to represent compound symbols found in programming (==,
 1. Open User Settings (Cmd/Ctrl + ,) and search for "font"
 1. Change the "Font Family" to "Fira Code" and make sure that the "Font Ligatures" box is checked.
    ![](images/01-font.png)
+1. Close and reopen Visual Studio Code to get the ligatures to show up
 1. Experiment in a code file with compound symbols such as ===, != or =>
 
 Here are a few other visual tweaks that you can experiment with
