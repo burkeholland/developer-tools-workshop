@@ -6,7 +6,7 @@ In this lab, you will learn...
 
 - Editor Navigation
 - File Content Navigation
-- Command Pallette
+- Command Palette
 - Custom Keybindings
 
 ## Editor Navigation
@@ -87,21 +87,21 @@ The following steps walk you through keyboard shortcuts to move around within an
 29. Delete the line: `CTRL/CMD + SHIFT + K`
 30. Undo the deletion with `CTRL/CMD + Z`
 
-## Command Pallette
+## Command Palette
 
-1. Open the command pallette using the keyboard shortcut `CTRL/CMD + SHIFT + P`
+1. Open the command palette using the keyboard shortcut `CTRL/CMD + SHIFT + P`
 2. Type in "View explore" and select the option "View: Show Explorer"
    - notice how the focus has changed to the explorer view
 3. Use the arrow keys up/down to change the selection between different files/folders
-4. Open the command pallette again `CTRL/CMD + SHIFT + P`
+4. Open the command palette again `CTRL/CMD + SHIFT + P`
 5. Type in "view active" and select the option "View: Focus Active Editor Group"
    - notice how the focus has jumped to your currently open file
-6. Open the command pallette `CTRL/CMD + SHIFT + P`
+6. Open the command palette `CTRL/CMD + SHIFT + P`
 7. Type in "view debug" to show the debug viewer
-8. Open the command pallette `CTRL/CMD + SHIFT + P`
+8. Open the command palette `CTRL/CMD + SHIFT + P`
 9. Type in "view extensions" to show the extensions view
-10. Open the command pallette (`CTRL/CMD + SHIFT + P`) and try out other commands by typing in an action you'd like to have it perform
-    - Things to try
+10. Open the command palette (`CTRL/CMD + SHIFT + P`) and try out other commands by typing in an action you'd like to have it perform
+    - Things to try:
       - Split the editor
       - Split the editor orthogonal
       - Move caret left/right
