@@ -45,10 +45,13 @@ The following steps walk you through keyboard shortcuts to move around the edito
     - Notice this closed the file and second editor group since no other files are present within it.
 26. Press `CTRL/CMD + P` and type "scratchpad" to open the `scratchpad.js` file again but now in editor group 1
 27. Press `CTRL/CMD + SHIFT + {` to cycle focus between open files (`index.js` and `scratchpad.js`)
+28. Close the current file you have in focus with `CTRL/CMD + W`
+29. Reopen the closed file with `CTRl/CMD + SHIFT + T`
+30. Go to a specific line with `CTRL + G` and enter a line number to go to (e.g. 5)
 
 ## File Content Navigation
 
-The following steps walk you through keyboard shortcuts to move around with an open file
+The following steps walk you through keyboard shortcuts to move around within an open file
 
 1. Press `CTRL/CMD + P`, type "simple index" and select the `index.js` file
 2. Scroll up or down in the file: `CTRL/CMD + up arrow/down arrow`
@@ -74,6 +77,15 @@ The following steps walk you through keyboard shortcuts to move around with an o
 21. Remove the leading spaces in that line
 22. Reformat the code: `ALT + SHIFT + F`
     - Notice the spaces were added back to conform the the code style of the project
+23. Select the entire current line: `CTRL/CMD + I`
+24. Double click the `runningMessage` variable to select/hightlight it.
+25. Select all instances of `runningMessage` (the selected text): `CTRL/CMD + SHIFT + L`
+    - Notice this selects all instances of the highlighted text and creates multiple cursors
+26. Press `backspace/delete` to remove all occurences.
+27. Undo the deletion with `CTRL/CMD + Z`
+28. Bring your cursor to the line with the following code: `console.log('API was successfully requested');`
+29. Delete the line: `CTRL/CMD + SHIFT + K`
+30. Undo the deletion with `CTRL/CMD + Z`
 
 ## Command Pallette
 
