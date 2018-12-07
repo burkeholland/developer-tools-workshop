@@ -143,6 +143,10 @@ Breadcrumb Navigation is a way to navigate in the editor with familiar "breadcru
 1. Open User Settings (Cmd/Ctrl + ,) and search for "breadcrumb"
 1. Make sure the "Breadcrumbs: Enabled" box is checked.
    ![](images/01-breadcrumbs.png)
+   
+#### Emmet Cheat Sheet
+
+Here is the emmet cheat sheet for keys to generate code: [Emmet Cheat Sheet](https://docs.emmet.io/cheat-sheet/)
 
 ### BONUS: Create Your Own Color Theme
 
