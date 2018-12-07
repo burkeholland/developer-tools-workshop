@@ -121,8 +121,8 @@ In this lab, you will learn...
 
 16. Go back to your browser and refresh the page once. You'll notice everything runs to completion.
 
-17. Refresh the page a second time and VS Code will take focus show the application is stopped at the breakpoint.
+17. Refresh the page a second time and VS Code will take focus to show the application is stopped at the breakpoint.
 
-18. Press the blue "play" button (blue arrow) to allow the application to continue execution.
+18. Press the red "stop" button (red square) to stop the application and debug session.
 
-    ![image](https://user-images.githubusercontent.com/6265396/49620676-d7655680-f976-11e8-9f00-32fe4cc8013d.png)
+    ![image](https://user-images.githubusercontent.com/6265396/49621759-b9e6bb80-f97b-11e8-9aa5-530566011925.png)
