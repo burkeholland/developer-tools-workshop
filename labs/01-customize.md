@@ -33,6 +33,7 @@ In this lab, you will learn...
 ### Installing a new color theme
 
 1. Open the command pallete (Cmd/Ctrl + Shift + P) and type "theme"
+1. Select "Preferences: Color Theme"
 1. Scroll down in the picker list to where it says "install new themes"
 1. Install a new theme
    - Popular Light Themes: Hop Light, Atom Light
